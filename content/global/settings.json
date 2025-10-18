@@ -1,0 +1,10 @@
+{
+  "siteTitle": "JYACS",
+  "siteDescription": "An Eleventy template for businesses.",
+  "colors": {
+    "primary": "#3B3B3D",
+    "secondary": "#1B1B1D",
+    "text": "#F9F9FB",
+    "background": "#3B3B3D"
+  }
+}

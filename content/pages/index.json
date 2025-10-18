@@ -1,0 +1,99 @@
+{
+  "title": "欢迎访问JYACS！",
+  "description": "JYACS 商业网站 - 提供优质服务",
+  "hero": {
+    "eyebrow": "愿每个深夜都有优里与书籍为伴",
+    "heading": "Empower your business with this brilliant template",
+    "description": null,
+    "image": "/optimized/JXU1hhi3-9-1280.jpeg",
+    "imageAlignment": "full-background",
+    "button": {
+      "text": "Our services",
+      "url": "#services"
+    }
+  },
+  "blocks": [
+    {
+      "_template": "leftRightBlock",
+      "eyebrow": "tag or label headline",
+      "heading": "A component to showcase your brand",
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Description text to complement the block."
+              }
+            ]
+          }
+        ]
+      },
+      "image": "/optimized/E5xaQhEixf-1152.jpeg",
+      "imageAlignment": "left",
+      "buttons": [
+        {
+          "text": "Book now",
+          "url": "/booking/"
+        }
+      ]
+    },
+    {
+      "_template": "priceList",
+      "eyebrow": "Eyebrow Heading",
+      "heading": "List your services or products",
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Whether your business is a restaurant, a barber shop, a gym, a café, or anything else, our template has you covered. Add your services and prices to the list below."
+              }
+            ]
+          }
+        ]
+      },
+      "lists": [
+        {
+          "heading": "Subheadings available",
+          "items": [
+            { "label": "Product 1", "price": "$40" },
+            { "label": "Product 2", "price": "$75.99" },
+            { "label": "Product 3", "price": "Price on application" }
+          ]
+        },
+        {
+          "heading": "Subheadings available",
+          "items": [
+            { "label": "Service 1", "price": "$34" },
+            { "label": "Service 2", "price": "$95 per month" },
+            { "label": "Service 3", "price": "$79 annually" }
+          ]
+        }
+      ],
+      "button": {
+        "text": "Book now",
+        "url": "/booking/"
+      }
+    },
+    {
+      "_template": "testimonial",
+      "eyebrow": "What your customers say",
+      "quote": "Their customer service is second to none.",
+      "authorName": "John Smith",
+      "image": "/optimized/LyS_nfLQ31-1600.jpeg",
+      "imageAlignment": "right",
+      "buttons": [
+        {
+          "text": "Book now",
+          "url": "/booking/"
+        }
+      ]
+    }
+  ]
+}

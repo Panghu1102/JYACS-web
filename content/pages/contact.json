@@ -1,0 +1,130 @@
+{
+  "title": "Contact",
+  "description": "联系我们",
+  "hero": {
+    "eyebrow": "Eyebrow Heading",
+    "heading": "Contact us",
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "type": "text",
+              "text": "Add some description text to complement the block."
+            }
+          ]
+        }
+      ]
+    },
+    "image": "/optimized/a-rhUUAz0z-800.jpeg",
+    "imageAlignment": "right",
+    "button": {
+      "text": "Contact us",
+      "url": "#contact-form"
+    }
+  },
+  "blocks": [
+    {
+      "_template": "form",
+      "eyebrow": "Eyebrow Heading",
+      "heading": "Contact us",
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "Invite your customers to get in touch with you."
+              }
+            ]
+          }
+        ]
+      },
+      "formId": "contact-form",
+      "submitText": "Submit",
+      "fields": [
+        {
+          "type": "text",
+          "label": "Full name",
+          "placeholder": "John Smith",
+          "required": true
+        },
+        {
+          "type": "email",
+          "label": "Email address",
+          "placeholder": "mybusiness@example.com",
+          "required": true
+        },
+        {
+          "type": "textarea",
+          "label": "Message",
+          "placeholder": "Leave your message here",
+          "required": false
+        }
+      ]
+    },
+    {
+      "_template": "cardGrid",
+      "eyebrow": "Bite-sized information",
+      "heading": "An image card grid",
+      "description": {
+        "type": "root",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "type": "text",
+                "text": "These image cards combine a short written message and a strong visual image."
+              }
+            ]
+          }
+        ]
+      },
+      "cards": [
+        {
+          "image": "/optimized/24wk6smwSc-1600.jpeg",
+          "eyebrow": "Eyebrow Heading",
+          "heading": "Primary Heading",
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "These versatile cards can be used to talk about your services or products, or anything else you are keen to share with your audience."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "image": "/optimized/YFM_NmeWPi-1600.jpeg",
+          "eyebrow": "Eyebrow Heading",
+          "heading": "Primary Heading",
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "These versatile cards can be used to talk about your services or products, or anything else you are keen to share with your audience."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Booking",
+  "description": "预订我们的服务",
+  "hero": {
+    "eyebrow": "Tag or label headline",
+    "heading": "A hero for a booking form page",
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "p",
+          "children": [
+            {
+              "type": "text",
+              "text": "Here are a few options to use above the fold. Customize these elements to display your products or services in the best way possible."
+            }
+          ]
+        }
+      ]
+    },
+    "image": "/optimized/9asRE9UOKJ-800.jpeg",
+    "imageAlignment": "right",
+    "button": {
+      "text": "Add an optional button",
+      "url": "#"
+    }
+  },
+  "blocks": [
+    {
+      "_template": "form",
+      "eyebrow": "Eyebrow Heading",
+      "heading": "Booking form",
+      "description": null,
+      "formId": "booking-form",
+      "submitText": "Book Now",
+      "fields": [
+        {
+          "type": "text",
+          "label": "Full name",
+          "placeholder": "John Smith",
+          "required": true
+        },
+        {
+          "type": "email",
+          "label": "Email address",
+          "placeholder": "mybusiness@example.com",
+          "required": true
+        },
+        {
+          "type": "tel",
+          "label": "Phone number",
+          "placeholder": "123 456 78910",
+          "required": false
+        },
+        {
+          "type": "date",
+          "label": "Choose a date",
+          "placeholder": "",
+          "required": true
+        },
+        {
+          "type": "textarea",
+          "label": "Message",
+          "placeholder": "Any helpful information we should know about.",
+          "required": false
+        }
+      ]
+    }
+  ]
+}
